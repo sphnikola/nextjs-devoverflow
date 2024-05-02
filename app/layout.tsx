@@ -13,6 +13,9 @@ const inter = Inter({
 export const metadata: Metadata = {
   title: "DevFlow",
   description: "A community driven question and answer platform",
+  icons: {
+    icon: "/public/assets/images/site-logo.svg",
+  },
 };
 
 export default function RootLayout({
